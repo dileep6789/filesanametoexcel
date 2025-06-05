@@ -1,7 +1,7 @@
 #!/usr/bin/env python
 # coding: utf-8
 
-# In[18]:
+# In[30]:
 
 
 import streamlit as st
@@ -42,42 +42,6 @@ elif not uploaded_files:
     st.info("Upload one or more PDF files to get started.")
 elif not excel_file_name.strip():
     st.warning("Please enter a valid Excel file name.")
-
-
-# In[4]:
-
-
-python --version
-
-
-# In[6]:
-
-
-pandas --version
-
-
-# In[8]:
-
-
-get_ipython().system(' python --version')
-
-
-# In[10]:
-
-
-get_ipython().system(' pandas--version')
-
-
-# In[12]:
-
-
-pd.__version__
-
-
-# In[14]:
-
-
-pip install pandas=="2.1.4"
 
 
 # In[ ]:
